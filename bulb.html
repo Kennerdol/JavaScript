@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <h2>What Can JavaScript Do?</h2>
+        <h2 id="HD">What Can JavaScript Do?</h2>
 
         <p>JavaScript can change HTML attribute values.</p>
 
@@ -21,7 +21,17 @@
         <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
         <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-            
+        <br><br>
+        <button onclick="document.getElementById('HD').style.fontSize='35px'">Increase Font Size</button>
+        
+        <br><br>
+        <button onclick="document.getElementById('HD').style.fontSize=''">Resert Font Size</button>
+        <button onclick="document.getElementById('HD').style.display='none'">Hide Style</button>
+        <button onclick="document.getElementById('HD').style.display='block'">Show Style</button>
+
+
+
+
         <script src="" async defer></script>
     </body>
 </html>
